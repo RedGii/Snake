@@ -88,8 +88,6 @@ public class FinalPanel extends JPanel {
         g2.setFont(new Font("Bank Gothic", Font.BOLD, 30));
         g2.drawString(String.valueOf(snakeFrame.gamePanel.getfinalScore()), 430, 250);
 
-        
-
         g2.drawImage(restart, restartPosition.x, restartPosition.y, null);
         g2.setColor(Color.black);
         g2.setFont(new Font("Bank Gothic", Font.BOLD, 20));
